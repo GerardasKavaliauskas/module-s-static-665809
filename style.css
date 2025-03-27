@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    padding-left: 10%;
+    padding-right: 10%; 
+}
+
+nav {
+    position: absolute;
+    grid-template-columns: 3;
+}
+
+nav li {
+    padding: 25px;
+    font-size: 25px;
+    list-style-type: none;
+    position:relative;
+}
+
+nav #left {
+    left: 100%;
+}
+hero img {
+    width:500px;
+    height: 500px;
+}
+hero h2 {
+    color: red;
+}
+#signup {
+    border: 1px black solid;
+}
+#signup :hover {
+    color: black;
+    background-color: black;
+}
+caption {
+    font-size: 20px;
+    align-self: center;
+}
+.cards {
+    align-items: center;
+}
+.card {
+    grid-template-columns: 3;
+}
